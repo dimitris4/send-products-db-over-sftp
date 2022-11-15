@@ -1,0 +1,24 @@
+{
+  "name": "send-products-db-over-sftp",
+  "version": "1.0.0",
+  "description": "Node JS app that sends a file to Azure Blob Storage container.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitris4/send-products-db-over-sftp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimitris4/send-products-db-over-sftp/issues"
+  },
+  "homepage": "https://github.com/dimitris4/send-products-db-over-sftp#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ssh2-sftp-client": "^9.0.4"
+  }
+}
